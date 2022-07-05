@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta lang="en">
+  </head>
+  <body>
+    <h1 id="title">An Awesome Survey</h1>
+    <p id="description">This survey is made just because i want to build it from scratch.<br>
+    so i hope it ends up well.
+    </p>
+
+    <fieldset>
+    <legend>Let the fun begin .. </legend>
+    <form id="survey-form">
+      <label id="name-label" >Your Name: <input type="text" id="name" placeholder="Put your name here .." required /></label>
+      <label id="email-label">Your E-mail: <input type="email" id="email" placeholder="Put your E-mail here .." required /></label>
+      <label id="number-label">Your Favourite Number: <input type="number" id="number" placeholder="Choose your favourite number here .." min="1" max="99" /></label>
+
+    <select id="dropdown">
+      <option></option>
+      <option></option>
+      <option></option>
+    </select>
+
+    <input type="radio" name="radio" value="1" />
+    <input type="radio" name="radio" value="2" />
+    <input type="radio" name="radio" value="3" />
+
+    <input type="checkbox" value="1" />
+    <input type="checkbox" value="2" />
+    <input type="checkbox" value="3" />
+
+    <input type="textarea" placeholder="Any additional comments .. ?">
+
+    <textarea cols="35" rows="5" id="textarea"></textarea>
+
+       <input type="submit" id="submit">
+       
+    </fieldset>
+    </form>
+  </body>
+</html>
